@@ -1,10 +1,11 @@
 {
-  "name": "workshop",
+  "name": "fundamentals-arrays",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jasmine",
+    "test": "npx jasmine spec/core.spec.js",
+    "test-extension": "npx jasmine spec/extension.spec.js",
     "prepare": "husky install"
   },
   "author": "",
