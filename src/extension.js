@@ -20,7 +20,7 @@ cities.unshift('Rio')
 colours.shift()
 
 // 5. Remove the last item from the keys array
-
+keys.pop()
 
 // 6. Remove Jordan from the countries array
 
