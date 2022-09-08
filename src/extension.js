@@ -11,19 +11,19 @@ const fruits = ['Apple', 'Orange', 'Pear']
 names.push('Fred')
 
 // 2. Add 4 to the end of the numbers array
-
+numbers.push(4)
 
 // 3. Add Rio to the start of the cities array
 cities.unshift('Rio')
 
 // 4. Remove the first colour from the colours array
-
+colours.shift()
 
 // 5. Remove the last item from the keys array
 keys.splice(keys.length - 1, 1) // get the lenght and reduce 1 from it (to get the correct last index)
 
 // 6. Remove Jordan from the countries array
-
+countries.splice( countries.indexOf('Jordan'),1)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = fruits.splice(fruits.length - 1, 1) // Splice removes the index and returns it
