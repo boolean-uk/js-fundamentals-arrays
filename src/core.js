@@ -15,7 +15,7 @@ const firstTeacher = teachers.shift()
 // 5. Add a teacher named Vanessa to the end of the teachers array
 teachers.push('Vanessa')
 // 6. Remove Ed from the teachers array
-
+teachers.splice(1, 1)
 // 7. Add a teacher named Sarah to the beginning of the teachers array
 
 // Don't change the code below this line
