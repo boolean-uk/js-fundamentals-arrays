@@ -8,7 +8,8 @@ const countries = ['Bolivia', 'Jordan', 'Greenland']
 const fruits = ['Apple', 'Orange', 'Pear']
 
 // 1. Add Fred to the names array
-
+names.push('Fred')
+console.log(names)
 
 // 2. Add 4 to the end of the numbers array
 
