@@ -9,7 +9,7 @@ const fourthTeacher = teachers[3]
 teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = undefined
+const lastTeacher = teachers.pop()
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
 const firstTeacher = undefined
