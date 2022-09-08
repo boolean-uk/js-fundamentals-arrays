@@ -1,5 +1,7 @@
 # Programming Fundamentals: Arrays
 
+#### <em>We created a couple of branchs and pull requests to Alex's repo just to practice.</em>
+
 ## Setup
 
 - Fork this repository and clone your forked version to your machine
