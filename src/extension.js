@@ -23,7 +23,7 @@ colours.shift()
 keys.splice(keys.length - 1, 1) // get the lenght and reduce 1 from it (to get the correct last index)
 
 // 6. Remove Jordan from the countries array
-countries.splice( countries.indexOf('Jordan'),1)
+countries.splice( countries.indexOf('Jordan'), 1)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = fruits.splice(fruits.length - 1, 1) // Splice removes the index and returns it
