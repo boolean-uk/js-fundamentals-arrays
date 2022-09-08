@@ -15,7 +15,7 @@ const lastTeacher = teachers.pop()
 const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-
+teachers.push('Vanessa')
 
 // 6. Remove Ed from the teachers array
 
@@ -30,3 +30,4 @@ module.exports = {
     lastTeacher,
     firstTeacher
 }
+console.log(teachers)
