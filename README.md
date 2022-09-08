@@ -34,6 +34,7 @@ console.log(hello)
 
 ![](./img/test-success.png)
 
+
 ## Extension
 
 - If you finish the core criteria, you can follow the same development process for the `src/extension.js` file
