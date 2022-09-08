@@ -17,7 +17,7 @@ numbers.push(4)
 cities.unshift('Rio')
 
 // 4. Remove the first colour from the colours array
-
+colours.shift()
 // 5. Remove the last item from the keys array
 
 // 6. Remove Jordan from the countries array
