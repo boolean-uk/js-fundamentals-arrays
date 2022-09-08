@@ -10,8 +10,9 @@ teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = teachers.pop()
+
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = undefined
+const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
 
