@@ -9,10 +9,10 @@ const fruits = ['Apple', 'Orange', 'Pear']
 
 // 1. Add Fred to the names array
 names.push('Fred')
-console.log(names)
 
 // 2. Add 4 to the end of the numbers array
-
+numbers.push(4)
+console.log(numbers)
 
 // 3. Add Rio to the start of the cities array
 
