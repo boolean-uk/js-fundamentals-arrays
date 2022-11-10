@@ -7,23 +7,30 @@ const fourthTeacher = teachers[3]
 console.log(fourthTeacher)
 
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers.splice(4,1,'Patrick') 
-console.log (teachers)
+teachers[4] = 'Patrick'
+console.log(teachers)
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = teachers[teachers.length-1]
+const lastTeacher = teachers.pop()
 console.log(lastTeacher)
-teachers.pop()
 console.log(teachers)
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = undefined
+const firstTeacher = teachers.shift()
+console.log(firstTeacher)
+console.log(teachers)
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
+teachers.push('Vanessa')
+console.log(teachers)
 
 // 6. Remove Ed from the teachers array
+teachers.shift()
+console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
+teachers.unshift('Sarah')
+console.log(teachers)
 
 // Don't change the code below this line
 module.exports = {
