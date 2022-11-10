@@ -15,7 +15,7 @@ const lastTeacher = teachers.pop()
 const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-teachers.push('Vannesa')
+teachers.push('Vanessa')
 // 6. Remove Ed from the teachers array
 teachers.shift()
 // 7. Add a teacher named Sarah to the beginning of the teachers array
