@@ -9,8 +9,12 @@ console.log(fourthTeacher)
 // 2. Replace the fifth teacher in the teachers array with Patrick
 teachers.splice(4,1,'Patrick') 
 console.log (teachers)
+
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = undefined
+const lastTeacher = teachers[teachers.length-1]
+console.log(lastTeacher)
+teachers.pop()
+console.log(teachers)
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
 const firstTeacher = undefined
