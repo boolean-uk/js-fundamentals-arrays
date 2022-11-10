@@ -5,10 +5,8 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 // fourthTeacher variable below to be the fourth teacher listed in the array
 const fourthTeacher = teachers[3]
 
-
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers [4] = 'Patrick'
-
+teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = teachers.pop()
@@ -18,7 +16,7 @@ const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
 teachers.push('Vanessa')
-//console.log(teachers)
+// console.log(teachers)
 
 // 6. Remove Ed from the teachers array
 teachers.shift(teachers[1])
