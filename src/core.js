@@ -11,7 +11,7 @@ teachers[4] = 'Patrick'
 console.log(teachers[4])
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = teachers[teachers.length-1]
+const lastTeacher = teachers[teachers.length - 1]
 teachers.pop()
 console.log(lastTeacher)
 console.log(teachers)
