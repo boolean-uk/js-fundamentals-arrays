@@ -11,13 +11,20 @@ teachers[4] = 'Patrick'
 console.log(teachers[4])
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = undefined
+const lastTeacher = teachers[teachers.length-1]
+teachers.pop()
+console.log(lastTeacher)
+console.log(teachers)
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = undefined
+const firstTeacher = teachers[0]
+teachers.shift()
+console.log(firstTeacher)
+console.log(teachers)
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-
+teachers.push('Vanessa')
+console.log(teachers)
 // 6. Remove Ed from the teachers array
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
