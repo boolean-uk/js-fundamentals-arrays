@@ -5,6 +5,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 // fourthTeacher variable below to be the fourth teacher listed in the array
 const fourthTeacher = teachers[3] 
 console.log(fourthTeacher)
+console.log("hello")
 
 // 2. Replace the fifth teacher in the teachers array with Patrick
 teachers [4] = "Patrick"
