@@ -27,7 +27,7 @@ console.log(colours)
 keys.pop()
 console.log(keys)
 
-// 6. Remove Jordan from the countries array ********************************************************************
+// 6. Remove Jordan from the countries array
 countries.splice(1, 1)
 console.log(countries)
 
