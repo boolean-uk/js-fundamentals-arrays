@@ -25,12 +25,12 @@ console.log('after shifting', teachers)
 teachers.push('Vanessa')
 
 // 6. Remove Ed from the teachers array
-teachers.splice(1, 1)
-// console.log(teachers)
+teachers.splice(0, 1)
+console.log('after removing ed',teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
 teachers.unshift('Sarah')
-// console.log(teachers)
+console.log('checking everything', teachers)
 
 // Don't change the code below this line
 module.exports = {
