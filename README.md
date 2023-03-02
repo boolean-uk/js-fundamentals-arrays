@@ -13,7 +13,7 @@
 
 - Write your code directly below the numbered comment.
 
-- Add `console.log`'s to get visibility on your solution and run the file with the command `node src/core.js`
+- Add `console.log`'s tbo get visiility on your solution and run the file with the command `node src/core.js`
 
 **Example**
 
@@ -38,4 +38,4 @@ console.log(hello)
 ## Extension
 
 - If you finish the core criteria, you can follow the same development process for the `src/extension.js` file
-- To run the extension tests, use the command `npm run test-extension`
+- To run the extension tests, use the command `npx jasmine spec/extension.spec.js`
