@@ -38,4 +38,4 @@ console.log(hello)
 ## Extension
 
 - If you finish the core criteria, you can follow the same development process for the `src/extension.js` file
-- To run the extension tests, use the command `npm run test-extension`
+- To run the extension tests, use the command `npx jasmine spec/extension.spec.js`
