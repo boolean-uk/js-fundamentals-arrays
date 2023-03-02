@@ -13,7 +13,7 @@
 
 - Write your code directly below the numbered comment.
 
-- Add `console.log`'s to get visibility on your solution and run the file with the command `node src/core.js`
+- Add `console.log`'s tbo get visiility on your solution and run the file with the command `node src/core.js`
 
 **Example**
 
