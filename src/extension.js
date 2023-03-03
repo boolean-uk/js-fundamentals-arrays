@@ -8,13 +8,13 @@ const countries = ['Bolivia', 'Jordan', 'Greenland']
 const fruits = ['Apple', 'Orange', 'Pear']
 
 // 1. Add Fred to the names array
-names.push("Fred")
+names.push('Fred')
 
 // 2. Add 4 to the end of the numbers array
 numbers.push(4)
 
 // 3. Add Rio to the start of the cities array
-cities.unshift("Rio")
+cities.unshift('Rio')
 
 // 4. Remove the first colour from the colours array
 colours.shift()
