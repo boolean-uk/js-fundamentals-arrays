@@ -8,7 +8,7 @@ console.log(teachers)
 console.log("fourthTeacher", fourthTeacher)
 
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers.splice(4, 1)
+teachers.splice(4, 1, 'Patrick')
 console.log(teachers)
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
@@ -24,7 +24,7 @@ teachers.push("Vanessa")
 console.log(teachers)
 
 // 6. Remove Ed from the teachers array
-teachers.splice(1, 1)
+teachers.splice(0, 1)
 console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
