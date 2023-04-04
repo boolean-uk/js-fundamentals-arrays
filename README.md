@@ -34,8 +34,23 @@ console.log(hello)
 
 ![](./img/test-success.png)
 
+## Formatting Tests
+
+When you try to `git commit` any work you've staged using `git add`, there is an additional test that runs that checks the formatting of your work against a set of rules we've defined. To run these tests locally use the following:
+
+```sh
+$ npx eslint src
+```
+You will then need to resolve the errors before successfully committing your work. You can also do this automatically with this command - but try to understand what well-formatted code looks like so you don't simply rely on this magic fix!
+```
+$ npx eslint src --fix
+```
+
+NB: If you fix these formatting errors, don't forget to `git add` and then `git commit` your changes before `git push` back to your remote repository
+
+
 
 ## Extension
 
 - If you finish the core criteria, you can follow the same development process for the `src/extension.js` file
-- To run the extension tests, use the command `npm run test-extension`
+- To run the extension tests, use the command `npm run test-extensions`
