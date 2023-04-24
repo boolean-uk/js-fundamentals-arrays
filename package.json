@@ -13,7 +13,7 @@
   "prettier": "@boolean-uk/boolean-prettier-config",
   "devDependencies": {
     "@boolean-uk/boolean-prettier-config": "^1.0.2",
-    "eslint": "^8.0.1",
+    "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.25.2",
