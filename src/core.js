@@ -20,7 +20,7 @@ teachers.push('Vanessa')
 
 // 6. Remove Ed from the teachers array
 const indexToRemove = teachers.indexOf('Ed')
-if (indexToRemove === ! -1) {
+if (indexToRemove !== -1) {
   teachers.splice(indexToRemove, 1)
 }
 
