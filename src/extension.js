@@ -6,22 +6,23 @@ const colours = ['Red', 'Blue', 'Yellow']
 const keys = ['q', 'w', 'e', 'r', 't', 'y']
 const countries = ['Bolivia', 'Jordan', 'Greenland']
 const fruits = ['Apple', 'Orange', 'Pear']
-
 // 1. Add Fred to the names array
-
+names.push('Fred')
 // 2. Add 4 to the end of the numbers array
-
+numbers.push(4)
 // 3. Add Rio to the start of the cities array
-
+cities.unshift('Rio')
 // 4. Remove the first colour from the colours array
-
+colours.shift()
 // 5. Remove the last item from the keys array
-
+keys.pop()
 // 6. Remove Jordan from the countries array
-
+const indexToRemove = countries.indexOf('Jordan')
+if  (indexToRemove !== -1) {
+  countries.splice(indexToRemove, 1)
+}
 // 7. Remove the last fruit from the fruits array and store it in pear below
-const pear = undefined
-
+const pear = fruits.pop()
 // Do not change the code below
 module.exports = {
   a: names,
