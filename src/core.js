@@ -9,19 +9,19 @@ const fourthTeacher = teachers[3]
 teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = teachers.pop();
+const lastTeacher = teachers.pop()
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = teachers.shift();
+const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-teachers.push("Vanessa")
+teachers.push('Vanessa')
 
 // 6. Remove Ed from the teachers array
 teachers.splice(0, 1)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-teachers.unshift("Sarah")
+teachers.unshift('Sarah')
 
 // Don't change the code below this line
 module.exports = {
