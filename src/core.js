@@ -6,7 +6,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 const fourthTeacher = teachers[3]
 
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers[4] = "Patrick"
+teachers[4] = 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = teachers.pop()
@@ -15,13 +15,13 @@ const lastTeacher = teachers.pop()
 const firstTeacher = teachers.shift()
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-teachers.push("Vanessa")
+teachers.push('Vanessa')
 
 // 6. Remove Ed from the teachers array
 teachers.shift()
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-teachers.unshift("Sarah")
+teachers.unshift('Sarah')
 // Don't change the code below this line
 module.exports = {
   teachers,
