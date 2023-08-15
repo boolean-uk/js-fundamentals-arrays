@@ -24,7 +24,7 @@ console.log(teachers)
 teachers.splice(0, 1)
 console.log(teachers)
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-teachers.unshift("Sarah")
+teachers.unshift('Sarah')
 console.log(teachers)
 // Don't change the code below this line
 module.exports = {

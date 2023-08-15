@@ -8,7 +8,7 @@ const countries = ['Bolivia', 'Jordan', 'Greenland']
 const fruits = ['Apple', 'Orange', 'Pear']
 
 // 1. Add Fred to the names array
-names.push("Fred")
+names.push('Fred')
 console.log(names)
 // 2. Add 4 to the end of the numbers array
 numbers.push(4)
@@ -17,7 +17,7 @@ console.log(numbers)
 cities.unshift('Rio')
 console.log(cities)
 // 4. Remove the first colour from the colours array
-colours.unshift()
+colours.shift()
 console.log(colours)
 // 5. Remove the last item from the keys array
 keys.pop()
@@ -26,9 +26,9 @@ console.log(keys)
 countries.splice(1, 1)
 console.log(countries)
 // 7. Remove the last fruit from the fruits array and store it in pear below
-const pear = ['Pear']
-fruits.pop()
-console.log(fruits)
+
+const pear = fruits.pop()
+// console.log(fruits)
 console.log(pear)
 
 // Do not change the code below
