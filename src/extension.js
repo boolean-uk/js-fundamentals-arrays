@@ -14,15 +14,24 @@ console.log(names)
 numbers.push(4)
 console.log(numbers)
 // 3. Add Rio to the start of the cities array
+cities.unshift('Rio')
+console.log(cities)
 
 // 4. Remove the first colour from the colours array
+colours.shift()
+console.log(colours)
 
 // 5. Remove the last item from the keys array
-
+keys.pop()
+console.log(keys)
 // 6. Remove Jordan from the countries array
+countries.splice(1 , 1)
+console.log(countries)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
-const pear = undefined
+const pear = fruits.pop()
+console.log(pear)
+
 
 // Do not change the code below
 module.exports = {
