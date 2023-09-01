@@ -18,7 +18,7 @@ colours.shift()
 // 5. Remove the last item from the keys array
 keys.pop()
 // 6. Remove Jordan from the countries array
-
+countries.splice(1,1)
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = undefined
 
