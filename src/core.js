@@ -6,8 +6,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 const fourthTeacher = teachers[3]
 console.log(teachers)
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers.splice(4, 1, 'Patrick')
-console.log(teachers)
+
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = teachers.pop()
 console.log(lastTeacher)
@@ -20,9 +19,7 @@ console.log(teachers)
 teachers.push('Vanessa')
 console.log(teachers)
 // 6. Remove Ed from the teachers array
-// eslint-disable-next-line dot-notation
-teachers.splice(teachers['Ed'], 1)
-console.log(teachers)
+
 // 7. Add a teacher named Sarah to the beginning of the teachers array
 teachers.unshift('Sarah')
 console.log(teachers)
