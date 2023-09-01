@@ -18,7 +18,8 @@ const lastTeacher = teachers[6]
 teachers.splice(6, 1)
 console.log(lastTeacher)
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = teachers.splice(0, 1)
+const firstTeacher = teachers[0]
+teachers.splice(0, 1)
 console.log('firstTeacher', firstTeacher)
 console.log('teachers', teachers)
 
@@ -31,7 +32,8 @@ teachers.shift()
 console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-
+teachers.unshift('Sarah')
+console.log(teachers)
 // Don't change the code below this line
 module.exports = {
   teachers,
