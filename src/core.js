@@ -18,7 +18,7 @@ const firstTeacher = teachers.shift()
 console.log(` 4: ${firstTeacher}`);
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-teachers.push('Venessa')
+teachers.push('Vanessa')
 console.log(` 5: ${teachers}`);
 
 // 6. Remove Ed from the teachers array
