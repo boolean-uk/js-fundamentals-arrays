@@ -26,6 +26,9 @@ console.log('teachers', teachers)
 teachers.push('Vanessa')
 console.log(teachers)
 // 6. Remove Ed from the teachers array
+console.log(teachers)
+teachers.shift()
+console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
 
