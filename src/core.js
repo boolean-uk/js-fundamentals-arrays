@@ -11,8 +11,12 @@ console.log(teachers[4])
 console.log(teachers)
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = undefined
+// teachers[6]= 'Shazad'
 
+console.log(teachers[6])
+const lastTeacher = teachers[6]
+teachers.splice(6.1)
+console.log(lastTeacher)
 // 4. Remove the first teacher from the array and save them in firstTeacher below
 const firstTeacher = undefined
 
