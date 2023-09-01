@@ -16,7 +16,7 @@ cities.unshift('Rio')
 // 4. Remove the first colour from the colours array
 colours.shift()
 // 5. Remove the last item from the keys array
-
+keys.pop()
 // 6. Remove Jordan from the countries array
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
