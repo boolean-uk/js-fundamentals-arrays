@@ -15,15 +15,16 @@ console.log(teachers)
 
 console.log(teachers[6])
 const lastTeacher = teachers[6]
-teachers.splice(6.1)
+teachers.splice(6, 1)
 console.log(lastTeacher)
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = teachers.splice(0,1)
+const firstTeacher = teachers.splice(0, 1)
 console.log('firstTeacher', firstTeacher)
 console.log('teachers', teachers)
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-
+teachers.push('Vanessa')
+console.log(teachers)
 // 6. Remove Ed from the teachers array
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
