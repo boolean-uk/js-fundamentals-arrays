@@ -3,8 +3,8 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 
 // 1. Using an index on the teachers array, change the value of the
 // fourthTeacher variable below to be the fourth teacher listed in the array
-const fourthTeacher = undefined
-
+const fourthTeacher = teachers[3]
+console.log(fourthTeacher)
 // 2. Replace the fifth teacher in the teachers array with Patrick
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
