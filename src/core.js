@@ -19,7 +19,7 @@ console.log(teachers)
 teachers.push('Vanessa')
 console.log(teachers)
 // 6. Remove Ed from the teachers array
-
+teachers.splice(0, 1)
 // 7. Add a teacher named Sarah to the beginning of the teachers array
 teachers.unshift('Sarah')
 console.log(teachers)
