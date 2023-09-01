@@ -21,7 +21,7 @@ teachers.push('Vanessa')
 teachers.splice(0, 1)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-teachers.upshift('Sarah')
+teachers.unshift('Sarah')
 
 // Don't change the code below this line
 module.exports = {
