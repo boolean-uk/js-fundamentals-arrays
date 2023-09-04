@@ -30,12 +30,12 @@ console.log('q5: keys :>> ', keys)
 // 6. Remove Jordan from the countries array
 const indexJordan = countries.indexOf('Jordan')
 countries.splice(indexJordan, 1)
-console.log('q6: countries :>> ', countries);
+console.log('q6: countries :>> ', countries)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = fruits.pop()
-console.log('q7: fruits :>> ', fruits);
-console.log('q7: pear :>> ', pear);
+console.log('q7: fruits :>> ', fruits)
+console.log('q7: pear :>> ', pear)
 
 //some dodgy formatting for the commit
 //another dodgy change
