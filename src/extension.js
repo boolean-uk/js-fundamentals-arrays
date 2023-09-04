@@ -37,8 +37,8 @@ const pear = fruits.pop()
 console.log('q7: fruits :>> ', fruits)
 console.log('q7: pear :>> ', pear)
 
-//some dodgy formatting for the commit
-//another dodgy change
+// some dodgy formatting for the commit
+// another dodgy change
 
 // Do not change the code below
 module.exports = {
