@@ -23,8 +23,10 @@ colours.shift()
 keys.pop()
 
 // 6. Remove Jordan from the countries array
-jordanIndex = countries.indexOf('Jordan')
-countries.splice(jordanIndex, 1)
+// jordanIndex = countries.indexOf('Jordan')
+// countries.splice(jordanIndex, 1)
+countries.splice(1,1)
+console.log(countries)
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = fruits.pop()
