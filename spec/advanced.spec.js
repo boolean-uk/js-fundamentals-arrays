@@ -1,4 +1,4 @@
-const { a, b, c, d, e, f, g, h, i } = require('../src/advanced')
+const { a, b, c, d, e, f, i, j, k } = require('../src/advanced')
 
 describe('Advanced Arrays', () => {
   // 1. Set this variable to the sum of the first and last numbers in the nums array
@@ -30,8 +30,18 @@ describe('Advanced Arrays', () => {
     expect(f).toEqual([7, 3, 8])
   })
 
-  // 9. add the numbers from otherNums to the end of nums
+  // 7. add the numbers from otherNums to the end of nums
   it('combinedNums is [2, 7, 3, 8, 9, 11, 14, 1, 21, 4, 6, 12, 13]', () => {
     expect(i).toEqual([2, 7, 3, 8, 9, 11, 14, 1, 21, 4, 6, 12, 13])
+  })
+
+  // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
+  it('newCities is ["Rome", "Paris", "Barcelona"]', () => {
+    expect(j).toEqual(['Rome', 'Paris', 'Barcelona'])
+  })
+
+  // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
+  it('moreCities is ["Sydney", "Rome", "Paris", "Barcelona", "Berlin"]', () => {
+    expect(k).toEqual(['Sydney', 'Rome', 'Paris', 'Barcelona', 'Berlin'])
   })
 })

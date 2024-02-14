@@ -25,6 +25,13 @@ const withSevenThreeEight = []
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = []
 
+// 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
+const newCities = []
+
+// 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
+// note: read about the spread operator
+const moreCities = []
+
 module.exports = {
   a: firstPlusLast,
   b: indexOfFourteen,
@@ -32,5 +39,7 @@ module.exports = {
   d: arrayToExtend,
   e: includesHundred,
   f: withSevenThreeEight,
-  i: combinedNums
+  i: combinedNums,
+  j: newCities,
+  k: moreCities
 }
