@@ -41,16 +41,21 @@ When you try to `git commit` any work you've staged using `git add`, there is an
 ```sh
 $ npx eslint src
 ```
+
 You will then need to resolve the errors before successfully committing your work. You can also do this automatically with this command - but try to understand what well-formatted code looks like so you don't simply rely on this magic fix!
+
 ```
 $ npx eslint src --fix
 ```
 
 NB: If you fix these formatting errors, don't forget to `git add` and then `git commit` your changes before `git push` back to your remote repository
 
-
-
 ## Extension
 
 - If you finish the core criteria, you can follow the same development process for the `src/extension.js` file
 - To run the extension tests, use the command `npm run test-extensions`
+
+## Advanced Extensions
+
+- If you finish the extension criteria, you can follow the same development process for the `src/advanced.js` file
+- To run the advanced tests, use the command `npm run test-advanced`
