@@ -5,7 +5,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 // fourthTeacher variable below to be the fourth teacher listed in the array
 const fourthTeacher = undefined
 
-// 2. Replace the fifth teacher in the teachers array with Patrick
+// 2. Replace the fifth teacher in the teachers array with 'Patrick'
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
 const lastTeacher = undefined
@@ -13,11 +13,11 @@ const lastTeacher = undefined
 // 4. Remove the first teacher from the array and save them in firstTeacher below
 const firstTeacher = undefined
 
-// 5. Add a teacher named Vanessa to the end of the teachers array
+// 5. Add a teacher named 'Vanessa' to the end of the teachers array
 
-// 6. Remove Ed from the teachers array
+// 6. Remove 'Ed' from the teachers array
 
-// 7. Add a teacher named Sarah to the beginning of the teachers array
+// 7. Add a teacher named 'Sarah' to the beginning of the teachers array
 
 // Don't change the code below this line
 module.exports = {
