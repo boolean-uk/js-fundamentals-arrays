@@ -11,15 +11,15 @@ console.log(firstPlusLast)
 const indexOfFourteen = nums.indexOf(14)
 console.log(indexOfFourteen)
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = 0
-console.log()
+const withoutLastThree = nums.splice(-3)
+console.log(withoutLastThree)
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
-
-console.log()
+arrayToExtend.splice(15, 0, 8)
+console.log(arrayToExtend)
 // 5. check if the array includes the number 100
-const includesHundred = true
-console.log()
+const includesHundred = arrayToExtend.includes(100)
+console.log(includesHundred)
 // 6. extract the numbers 7, 3, 8 into a new array
 const withSevenThreeEight = []
 console.log()
