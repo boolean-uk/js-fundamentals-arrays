@@ -5,22 +5,34 @@ const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
-const firstPlusLast = 0
-
+const firstPlusLast = undefined
+const initialValue = 0
+console.log(initialValue)
+const sumWithInitial = nums.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue,
+  );
+console.log(sumWithInitial)
 // 2. set this variable to the index where the number 14 is located in the array
-const indexOfFourteen = 0
+const indexOfFourteen = nums[6]
+console.log(indexOfFourteen)
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = 0
+const withoutLastThree = nums.splice(6, 3)
+console.log(nums)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
+arrayToExtend.splice(3, 0, 15)
+console.log(arrayToExtend)
 
 // 5. check if the array includes the number 100
-const includesHundred = true
+const includesHundred = arrayToExtend.push(100)
+console.log(arrayToExtend)
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = []
+const withSevenThreeEight = nums.toSpliced(0, 10, 7, 3, 8)
+console.log(withSevenThreeEight)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = []
