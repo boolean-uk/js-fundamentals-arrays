@@ -18,7 +18,7 @@ const withoutLastThree = nums.slice(0, 6)
 arrayToExtend.splice(3, 0, 15)
 
 // 5. check if the array includes the number 100
-const includesHundred = !true
+const includesHundred = arrayToExtend.includes(100)
 
 // 6. extract the numbers 7, 3, 8 into a new array
 const withSevenThreeEight = nums.slice(1, 4)
