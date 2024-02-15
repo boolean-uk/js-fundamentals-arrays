@@ -3,7 +3,7 @@ const teachers = ['Nathan', 'Ed', 'Steve', 'Phil', 'Carlo', 'Lewis', 'Shahzad']
 
 // 1. Using an index on the teachers array, change the value of the
 // fourthTeacher variable below to be the fourth teacher listed in the array
-const fourthTeacher = teachers[3];
+const fourthTeacher = teachers[3]
 // console.log(fourthTeacher);
 
 // 2. Replace the fifth teacher in the teachers array with 'Patrick'
@@ -11,7 +11,7 @@ teachers[4] = 'Patrick'
 // console.log(teachers);
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = teachers.pop();
+const lastTeacher = teachers.pop()
 // console.log(teachers);
 // console.log(lastTeacher);
 
@@ -25,11 +25,11 @@ teachers.push('Vanessa')
 // console.log(teachers);
 
 // 6. Remove 'Ed' from the teachers array
-teachers.splice(0, 1);
+teachers.splice(0, 1)
 // console.log(teachers);
 
 // 7. Add a teacher named 'Sarah' to the beginning of the teachers array
-teachers.unshift("Sarah");
+teachers.unshift('Sarah')
 // console.log(teachers);
 
 // Don't change the code below this line
