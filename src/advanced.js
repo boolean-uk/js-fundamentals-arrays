@@ -4,8 +4,6 @@ const otherNums = [4, 6, 12, 13]
 const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
-console.log(...nums)
-
 // 1. Set this variable to the sum of the first and last numbers in the nums array
 const firstPlusLast = 0
 
