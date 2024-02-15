@@ -5,7 +5,8 @@ const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
-const firstPlusLast = 0
+const firstPlusLast = nums.slice(0, 8)
+console.log(firstPlusLast)
 
 // 2. set this variable to the index where the number 14 is located in the array
 const indexOfFourteen = 0
