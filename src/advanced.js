@@ -27,7 +27,7 @@ const includesHundred = arrayToExtend.includes(100)
 
 // 6. extract the numbers 7, 3, 8 into a new array
 
-const withSevenThreeEight = [...nums.splice(1,3)]
+const withSevenThreeEight = nums.splice(1,3)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 
