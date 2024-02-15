@@ -31,7 +31,7 @@ const includesHundred = arrayToExtend.push(100)
 console.log(arrayToExtend)
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = nums.toSpliced(0,2)
+const withSevenThreeEight = nums.toSpliced(0, 10, 7, 3, 8)
 console.log(withSevenThreeEight)
 
 // 7. add the numbers from otherNums to the end of numsToMerge

@@ -11,11 +11,11 @@ teachers.splice(4, 1, 'Patrick')
 console.log(teachers)
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
-const lastTeacher = console.log(teachers.pop())
+const lastTeacher = teachers.pop()
 console.log(teachers)
 
 // 4. Remove the first teacher from the array and save them in firstTeacher below
-const firstTeacher = teachers.splice(0,1)
+const firstTeacher = teachers.shift()
 console.log(teachers)
 
 
@@ -23,7 +23,7 @@ console.log(teachers)
 teachers.push('Vanessa')
 console.log(teachers)
 // 6. Remove 'Ed' from the teachers array
-teachers.splice(0,1)
+teachers.splice(0, 1)
 console.log(teachers)
 // 7. Add a teacher named 'Sarah' to the beginning of the teachers array
 teachers.unshift('Sarah')
