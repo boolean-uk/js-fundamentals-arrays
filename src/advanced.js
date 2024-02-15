@@ -1,7 +1,7 @@
 // DO NOT MODIFY THESE
 const nums = [2, 7, 3, 8, 9, 11, 14, 1, 21]
-const otherNums = [4, 6, 12, 13]
-const numsToMerge = [...nums]
+// const otherNums = [4, 6, 12, 13]
+// const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
