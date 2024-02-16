@@ -21,14 +21,14 @@ console.log(arrayToExtend)
 const includesHundred = arrayToExtend.includes(100)
 console.log(includesHundred)
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = []
-console.log()
+const withSevenThreeEight = nums.splice(1, 3)
+console.log(withSevenThreeEight)
 // 7. add the numbers from otherNums to the end of numsToMerge
-const combinedNums = []
-console.log()
+const combinedNums = [...numsToMerge, ...otherNums]
+console.log(combinedNums)
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
-const newCities = []
-console.log()
+const newCities = newCities.push('Rome', 'Paris', 'Carcelona')
+console.log(newCities)
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
 const moreCities = []
