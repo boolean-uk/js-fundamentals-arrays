@@ -11,11 +11,11 @@ console.log(firstPlusLast)
 const indexOfFourteen = nums.indexOf(14)
 console.log(indexOfFourteen)
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(-3)
+const withoutLastThree = nums.splice(-5)
 console.log(withoutLastThree)
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
-arrayToExtend.splice(15, 0, 8)
+arrayToExtend.splice(3, 0, 15)
 console.log(arrayToExtend)
 // 5. check if the array includes the number 100
 const includesHundred = arrayToExtend.includes(100)
@@ -27,12 +27,12 @@ console.log(withSevenThreeEight)
 const combinedNums = [...numsToMerge, ...otherNums]
 console.log(combinedNums)
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
-const newCities = newCities.push('Rome', 'Paris', 'Carcelona')
+const newCities = ['Rome', 'Paris', 'Barcelona']
 console.log(newCities)
 // 9. use the spread operator ... to clone the cities array and add 'Berlin' to the end and 'Sydney' to the start
 // note: read about the spread operator
-const moreCities = []
-console.log()
+const moreCities = [].concat('Sydney', newCities, 'Berlin')
+console.log(moreCities)
 module.exports = {
   a: firstPlusLast,
   b: indexOfFourteen,
