@@ -5,10 +5,12 @@ const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
-const firstPlusLast = 0
+const firstPlusLast = nums[0] + nums[8]
+console.log(firstPlusLast)
 
 // 2. set this variable to the index where the number 14 is located in the array
-const indexOfFourteen = 0
+const indexOfFourteen = [6]
+console.log(indexOfFourteen)
 
 // 3. remove the last 3 elements of the array in one single instruction
 const withoutLastThree = 0
