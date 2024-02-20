@@ -11,7 +11,7 @@ const firstPlusLast = nums[0] + nums[nums.length - 1]
 const indexOfFourteen = nums.findIndex(function (elm) { return 14 === elm })
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(nums.length - 4, nums.length - 1)
+const withoutLastThree = nums.splice(0, nums.length - 4)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
