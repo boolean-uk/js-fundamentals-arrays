@@ -21,7 +21,7 @@ arrayToExtend.splice(arrayToExtend.findIndex(function (elm) { return 8 === elm }
 const includesHundred = nums.find(function (elm) { return 100 === elm }) !== undefined
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = [...nums.slice(1, 4)]
+const withSevenThreeEight = nums.slice(1, 4)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = numsToMerge.concat(otherNums)
