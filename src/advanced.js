@@ -11,7 +11,7 @@ const firstPlusLast = nums[0] + nums[nums.length - 1]
 const indexOfFourteen = nums.indexOf(14)
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.pop(3)
+const withoutLastThree = nums.slice(0, -3)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
@@ -23,7 +23,7 @@ const includesHundred = arrayToExtend.includes(100)
 const withSevenThreeEight = numsToMerge.slice(1, 4)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
-const combinedNums = numsToMerge.push(...otherNums)
+const combinedNums = [...numsToMerge, ...otherNums]
 
 // 8. create a new array with the cities 'Rome', 'Paris' and 'Barcelona'
 const cities = ['Rome', 'Paris', 'Barcelona']
