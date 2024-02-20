@@ -8,7 +8,7 @@ const arrayToExtend = [...nums]
 const firstPlusLast = nums[0] + nums.lastItem
 
 // 2. set this variable to the index where the number 14 is located in the array
-const indexOfFourteen = nums.findIndex(14)
+const indexOfFourteen = nums.find(14)
 
 // 3. remove the last 3 elements of the array in one single instruction
 const withoutLastThree = nums.splice(nums.lastIndex - 3, nums.lastIndex)
