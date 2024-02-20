@@ -23,7 +23,7 @@ colours.splice(0)
 keys.pop()
 
 // 6. Remove Jordan from the countries array
-countries.splice(countries.find('Jordan'))
+countries.splice(countries.findIndex(function (elm) { return 'Jordan' === elm }))
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
 const pear = countries.pop()

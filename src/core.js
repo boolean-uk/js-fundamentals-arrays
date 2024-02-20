@@ -18,7 +18,7 @@ const firstTeacher = teachers.splice(0)
 teachers.push('Vanessa')
 
 // 6. Remove 'Ed' from the teachers array
-teachers.splice(teachers.find('Ed'))
+teachers.splice(teachers.findIndex(function (elm) { return 'Ed' === elm }))
 
 // 7. Add a teacher named 'Sarah' to the beginning of the teachers array
 teachers.unshift('Sarah')

@@ -8,7 +8,7 @@ const arrayToExtend = [...nums]
 const firstPlusLast = nums[0] + nums.lastItem
 
 // 2. set this variable to the index where the number 14 is located in the array
-const indexOfFourteen = nums.find(14)
+const indexOfFourteen = nums.find(function (elm) { return 14 === elm })
 
 // 3. remove the last 3 elements of the array in one single instruction
 const withoutLastThree = nums.splice(nums.lastIndex - 3, nums.lastIndex)
@@ -17,7 +17,7 @@ const withoutLastThree = nums.splice(nums.lastIndex - 3, nums.lastIndex)
 // note: use splice, read the documentation carefully
 
 // 5. check if the array includes the number 100
-const includesHundred = nums.find(100) !== undefined
+const includesHundred = nums.find(function (elm) { return 100 === elm }) !== undefined
 
 // 6. extract the numbers 7, 3, 8 into a new array
 const withSevenThreeEight = nums.slice(1, 4)
