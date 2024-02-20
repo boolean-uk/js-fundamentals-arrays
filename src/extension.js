@@ -14,7 +14,7 @@ names.push('Fred')
 numbers.push(4)
 
 // 3. Add Rio to the start of the cities array
-numbers.unshift('Rio')
+cities.unshift('Rio')
 
 // 4. Remove the first colour from the colours array
 colours.splice(0)
@@ -26,7 +26,7 @@ keys.pop()
 countries.splice(countries.findIndex(function (elm) { return 'Jordan' === elm }))
 
 // 7. Remove the last fruit from the fruits array and store it in pear below
-const pear = countries.pop()
+const pear = fruits.pop()
 
 // Do not change the code below
 module.exports = {

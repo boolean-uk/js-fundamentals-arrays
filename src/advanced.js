@@ -5,16 +5,17 @@ const numsToMerge = [...nums]
 const arrayToExtend = [...nums]
 
 // 1. Set this variable to the sum of the first and last numbers in the nums array
-const firstPlusLast = nums[0] + nums.lastItem
+const firstPlusLast = nums[0] + nums[nums.length - 1]
 
 // 2. set this variable to the index where the number 14 is located in the array
-const indexOfFourteen = nums.find(function (elm) { return 14 === elm })
+const indexOfFourteen = nums.findIndex(function (elm) { return 14 === elm })
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(nums.lastIndex - 3, nums.lastIndex)
+const withoutLastThree = nums.splice(nums.length - 4, nums.length - 1)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
+arrayToExtend.splice(arrayToExtend.findIndex(function (elm) { return 8 === elm }), 0, 15)
 
 // 5. check if the array includes the number 100
 const includesHundred = nums.find(function (elm) { return 100 === elm }) !== undefined
