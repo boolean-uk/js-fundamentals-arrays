@@ -11,7 +11,7 @@ const firstPlusLast = nums[0] + nums[nums.length - 1]
 const indexOfFourteen = nums.findIndex(function (elm) { return 14 === elm })
 
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.splice(0, nums.length - 4)
+const withoutLastThree = nums.splice(0, nums.length - 3)
 
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
@@ -21,7 +21,7 @@ arrayToExtend.splice(arrayToExtend.findIndex(function (elm) { return 8 === elm }
 const includesHundred = nums.find(function (elm) { return 100 === elm }) !== undefined
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = nums.slice(1, 4)
+const withSevenThreeEight = [...nums.slice(1, 4)]
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = numsToMerge.concat(otherNums)
