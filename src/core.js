@@ -19,7 +19,7 @@ teachers.push('Vanessa')
 
 // 6. Remove 'Ed' from the teachers array
 // Find the index of 'Ed' in the array
-teachers.splice(teachers.indexOf('Ed'), 1);
+teachers.splice(teachers.indexOf('Ed'), 1)
 
 // 7. Add a teacher named 'Sarah' to the beginning of the teachers array
 teachers.unshift('Sarah')
