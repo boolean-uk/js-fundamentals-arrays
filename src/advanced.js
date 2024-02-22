@@ -18,16 +18,16 @@ const withoutLastThree = nums.slice(0, 6)
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
 arrayToExtend.splice(3, 0, 15)
-console.log(arrayToExtend)
+console.log('Q4:', arrayToExtend)
 
 // 5. check if the array includes the number 100
 const includesHundred = arrayToExtend.indexOf(100) >= 0
 console.log(includesHundred)
 
 // 6. extract the numbers 7, 3, 8 into a new array
-const withSevenThreeEight = arrayToExtend.splice(1, 2)
-withSevenThreeEight.push(arrayToExtend.splice(2, 1)[0])
-console.log(withSevenThreeEight)
+const withSevenThreeEight = arrayToExtend.slice(1, 3)
+withSevenThreeEight.push(arrayToExtend.slice(4, 5)[0])
+console.log('Q6: ', withSevenThreeEight)
 
 // 7. add the numbers from otherNums to the end of numsToMerge
 const combinedNums = [...numsToMerge, ...otherNums]
