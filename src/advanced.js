@@ -11,7 +11,7 @@ console.log(firstPlusLast)
 const indexOfFourteen = nums.indexOf(14)
 console.log(indexOfFourteen)
 // 3. remove the last 3 elements of the array in one single instruction
-const withoutLastThree = nums.toSpliced(6, 6)
+const withoutLastThree = nums.toSpliced(6, 3)
 console.log(withoutLastThree)
 // 4. Add the number 15 before the number 8 in the array arrayToExtend
 // note: use splice, read the documentation carefully
